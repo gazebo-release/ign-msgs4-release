@@ -16,8 +16,7 @@ ifneq ($(DEB_HOST_MULTIARCH),)
 CONFIGURE_ARGS+=-DCMAKE_INSTALL_LIBDIR:STRING="lib/${DEB_HOST_MULTIARCH}"
 endif
 
-.PHONY: override_dh_auto_configure \
-        override_dh_strip 
+.PHONY: override_dh_auto_configure
 
 %:
 	dh $@ --parallel
@@ -26,6 +25,3 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
             $(CONFIGURE_ARGS)
-
-override_dh_strip:
-	dh_strip -a --dbg-package=libignition-msgs2-dbg

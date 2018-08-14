@@ -1,23 +1,23 @@
-Source: ignition-msgs2
+Source: ignition-msgs3
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: cmake,
                pkg-config,
-               debhelper (>= 7.0.50~),
+               debhelper (>= 11),
                doxygen,
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
-               libignition-cmake1-dev,
-               libignition-math5-dev,
+               libignition-cmake2-dev,
+               libignition-math6-dev,
                libignition-tools-dev,
                protobuf-compiler,
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs2-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs2-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs3-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs3-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-msgs2
+Package: libignition-msgs3
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -27,7 +27,7 @@ Description: Protobuf messages for ignitionics applications - Shared library
  This library provides a set of google protobuf messages that are typically used
  in ignition applications. 
 
-Package: libignition-msgs2-dev
+Package: libignition-msgs3-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
@@ -35,20 +35,8 @@ Depends: libprotobuf-dev (>= 2.3.0),
          protobuf-compiler,
          libignition-cmake1-dev,
          libignition-math5-dev,
-         libignition-msgs2 (= ${binary:Version})
+         libignition-msgs3 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
- This library provides a set of google protobuf messages that are typically used
- in ignition applications. 
-
-Package: libignition-msgs2-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends:
-     libignition-msgs2 (= ${binary:Version}),
-     ${misc:Depends}
-Multi-Arch: same
-Description: Protobuf messages for ignitionics applications - Debugging symbols
  This library provides a set of google protobuf messages that are typically used
  in ignition applications. 
