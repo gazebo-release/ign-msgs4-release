@@ -33,8 +33,8 @@ Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
          libprotoc-dev,
          protobuf-compiler,
-         libignition-cmake1-dev,
-         libignition-math5-dev,
+         libignition-cmake2-dev,
+         libignition-math6-dev,
          libignition-msgs3 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
