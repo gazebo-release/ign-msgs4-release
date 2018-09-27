@@ -1,3 +1,9 @@
+ignition-msgs3 (3.0.0~pre2-2~bionic) bionic; urgency=medium
+
+  * ignition-msgs3 3.0.0~pre2-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 27 Sep 2018 13:47:25 +0200
+
 ignition-msgs3 (3.0.0~pre2-1~bionic) bionic; urgency=medium
 
   * ignition-msgs3 3.0.0~pre2-1 release

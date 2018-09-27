@@ -4,3 +4,4 @@ usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-msgs*/*
 usr/share/ignition/*
 usr/share/ignition/*/*
+usr/lib/ruby/ignition/*.rb
