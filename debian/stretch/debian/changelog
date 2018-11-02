@@ -1,3 +1,9 @@
+ignition-msgs3 (3.0.0~pre3-1~stretch) stretch; urgency=medium
+
+  * ignition-msgs3 3.0.0~pre3-1 release
+
+ -- Ian Chen <ichen@osrfoundation.org>  Fri, 02 Nov 2018 14:48:11 -0700
+
 ignition-msgs3 (3.0.0~pre2-2~stretch) stretch; urgency=medium
 
   * ignition-msgs3 3.0.0~pre2-2 release
