@@ -1,3 +1,9 @@
+ignition-msgs3 (3.1.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs3 3.1.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 14 Mar 2019 16:24:13 -0700
+
 ignition-msgs3 (3.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-msgs3 3.0.0-1 release
