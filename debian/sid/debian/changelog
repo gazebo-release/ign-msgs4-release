@@ -1,3 +1,9 @@
+ignition-msgs3 (3.1.0-1~sid) sid; urgency=medium
+
+  * ignition-msgs3 3.1.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 15 Mar 2019 10:47:18 -0700
+
 ignition-msgs3 (3.1.0~pre1-1~sid) sid; urgency=medium
 
   * ignition-msgs3 3.1.0~pre1-1 release
