@@ -1,3 +1,9 @@
+ignition-msgs4 (4.0.0~pre2-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs4 4.0.0~pre2-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 13 May 2019 10:46:04 -0700
+
 ignition-msgs4 (4.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-msgs4 4.0.0~pre1-1 release
