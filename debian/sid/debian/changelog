@@ -1,3 +1,9 @@
+ignition-msgs4 (4.0.0-1~sid) sid; urgency=medium
+
+  * ignition-msgs4 4.0.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 20 May 2019 14:01:43 -0700
+
 ignition-msgs4 (4.0.0~pre2-1~sid) sid; urgency=medium
 
   * ignition-msgs4 4.0.0~pre2-1 release
