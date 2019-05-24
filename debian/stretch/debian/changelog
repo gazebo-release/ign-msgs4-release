@@ -1,3 +1,9 @@
+ignition-msgs4 (4.1.0~pre3-1~stretch) stretch; urgency=medium
+
+  * ignition-msgs4 4.1.0~pre3-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 24 May 2019 15:12:28 -0700
+
 ignition-msgs4 (4.1.0~pre2-1~stretch) stretch; urgency=medium
 
   * ignition-msgs4 4.1.0~pre2-1 release
