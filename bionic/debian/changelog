@@ -1,3 +1,9 @@
+ignition-msgs4 (4.2.0-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs4 4.2.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 28 June 2019 12:34:04 -0700
+
 ignition-msgs4 (4.1.0-1~bionic) bionic; urgency=medium
 
   * ignition-msgs4 4.1.0-1 release
