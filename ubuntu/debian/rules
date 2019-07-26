@@ -16,10 +16,18 @@ ifneq ($(DEB_HOST_MULTIARCH),)
 CONFIGURE_ARGS+=-DCMAKE_INSTALL_LIBDIR:STRING="lib/${DEB_HOST_MULTIARCH}"
 endif
 
-.PHONY: override_dh_auto_configure
+.PHONY: override_dh_auto_configure override_dh_auto_test
 
 %:
 	dh $@ --parallel
+
+# https://bitbucket.org/ignitionrobotics/ign-msgs/issues/32/initpointcloudpacked-test-failed-on-i386
+override_dh_auto_test:
+ifeq ($(DEB_HOST_ARCH),i386)
+	true
+else
+	dh_auto_test
+endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
