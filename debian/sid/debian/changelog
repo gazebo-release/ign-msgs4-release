@@ -1,3 +1,9 @@
+ignition-msgs4 (4.6.0-1~sid) sid; urgency=medium
+
+  * ignition-msgs4 4.6.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 16 Aug 2019 13:48:51 -0700
+
 ignition-msgs4 (4.5.0-1~sid) sid; urgency=medium
 
   * ignition-msgs4 4.5.0-1 release
